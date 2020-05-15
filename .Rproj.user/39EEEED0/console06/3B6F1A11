@@ -1,3 +1,26 @@
 ]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ [K]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git init
 Initialized empty Git repository in /home/raphael/Documents/daisietreeplot/.git/
 ]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git add .
+]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ got co[K[K[K[K[Kit commit -m "init"
+[master (root-commit) 5f588f6] init
+ 7 files changed, 313 insertions(+)
+ create mode 100644 .Rproj.user/39EEEED0/console06/3B6F1A11
+ create mode 100644 .Rproj.user/39EEEED0/console06/3B6F1A11.env
+ create mode 100644 .Rproj.user/39EEEED0/console06/INDEX001
+ create mode 100644 .Rproj.user/39EEEED0/sources/s-679B0141/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 daisietreeplot.Rproj
+ create mode 100644 scratchpad.R
+]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git push[K[K[K[K[K[K[K[Kgit remote add origin git@github.com:rscherrrer/daisietreeplot.git
+]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git push -u origin master
+Counting objects: 15, done.
+Delta compression using up to 8 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:   6% (1/15)   Writing objects:  13% (2/15)   Writing objects:  20% (3/15)   Writing objects:  26% (4/15)   Writing objects:  33% (5/15)   Writing objects:  40% (6/15)   Writing objects:  46% (7/15)   Writing objects:  53% (8/15)   Writing objects:  60% (9/15)   Writing objects:  66% (10/15)   Writing objects:  73% (11/15)   Writing objects:  80% (12/15)   Writing objects:  86% (13/15)   Writing objects:  93% (14/15)   Writing objects: 100% (15/15)   Writing objects: 100% (15/15), 5.63 KiB | 1.13 MiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0)
+To github.com:rscherrer/daisietreeplot.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+[K]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ echo > README>m[K[K.md
+]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ nano README.md
+[23;0;0t[?1l>]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git add .
