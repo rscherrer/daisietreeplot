@@ -8,4 +8,4 @@ The `scratchpad.R` file in this repository contains an example of how to use the
 
 The result is shown here:
 
-[](figure.png)
+![plot](figure.png)
