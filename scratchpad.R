@@ -4,8 +4,8 @@ library(tidyverse)
 library(ggtree)
 
 source("white_rect.R")
-source("single_branch.R")
 source("daisietreeplot.R")
+source("single_branch.R")
 
 set.seed(42)
 
@@ -23,7 +23,7 @@ tcols <- c(4.5, 5, 4.6)
 
 # Toy metadata
 metadata <- tibble::tibble(
-  clade = names(trees), 
+  clade = names(trees),
   endemic = TRUE,  # whether each clade is endemic
   uncertain = FALSE  # whether colonization time is known for sure
 )
@@ -35,23 +35,11 @@ age <- 5
 
 # Make a plot
 p <- daisietreeplot(
-  trees, 
-  age, 
-  tcols, 
-  metadata, 
-  mapping = ggplot2::aes(color = endemic, linetype = uncertain, shape = uncertain),
+  trees,
+  age,
+  tcols,
+  metadata,
+  mapping = ggplot2::aes(color = endemic, linetype = uncertain),
   pargs = list(size = 3)
 )
-
-# Customize it
-p <- p + 
-  ggplot2::scale_color_manual(
-    values = c("forestgreen", "darkblue"), na.translate = FALSE
-  ) +
-  ggplot2::ggtitle("Island colonization by multiple clades") +
-  ggplot2::xlab("Time (Mya)") +
-  ggplot2::guides(lty = FALSE) +
-  ggplot2::scale_shape(na.translate = FALSE)
 p
-
-ggsave("figure.png", p, height = 5, width = 4, dpi = 300)

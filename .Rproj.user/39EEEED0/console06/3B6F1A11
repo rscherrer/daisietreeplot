@@ -47,3 +47,19 @@ To github.com:rscherrer/daisietreeplot.git
    5f588f6..9f41080  master -> master
 ]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git pushcommit -m "done"add .[Knano README.md
 [23;0;0t[?1l>]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git addd .[K[K[K .
+]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git commit -m "inserting figure
+> "
+[master 8112ed0] inserting figure
+ 3 files changed, 28 insertions(+), 5 deletions(-)
+]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ git push
+
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 1.28 KiB | 654.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:rscherrer/daisietreeplot.git
+   9f41080..8112ed0  master -> master
+]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ 
+]0;/home/raphael/Documents/daisietreeplot]0;raphael@unidesktop: ~/Documents/daisietreeplot[01;32mraphael@unidesktop[00m:[01;34m~/Documents/daisietreeplot[00m$ sds[K[K[K
